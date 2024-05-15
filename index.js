@@ -112,7 +112,6 @@ app.post('/form', async (request, response) => {
   );
 
   console.log('envelope results ', results);
-  response.send('received');
 
   const viewRequest = makeRecipientViewRequest(request.body.name, request.body.email);
 
@@ -125,6 +124,7 @@ app.post('/form', async (request, response) => {
   );
 
   response.redirect(results.url);
+  // response.send('received');
 });
 
 app.listen(8000, () => {
