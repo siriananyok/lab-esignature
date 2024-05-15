@@ -1,0 +1,30 @@
+{
+  "name": "lab-esignature",
+  "version": "1.0.0",
+  "description": "lab-esignature",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siriananyok/lab-esignature.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siriananyok/lab-esignature/issues"
+  },
+  "homepage": "https://github.com/siriananyok/lab-esignature#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "docusign-esign": "^6.5.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
